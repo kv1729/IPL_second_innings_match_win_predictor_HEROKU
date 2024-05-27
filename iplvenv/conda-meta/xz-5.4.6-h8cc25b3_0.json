@@ -252,7 +252,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "xz",
   "sha256": "fc2b619cf07e54f8d66cbdd233431fa74f5d695e8b75c0a1a23547cf2b3f65b2",
   "size": 601552,
   "subdir": "win-64",

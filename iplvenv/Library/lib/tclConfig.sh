@@ -55,11 +55,11 @@ TCL_LIBS='kernel32.lib advapi32.lib netapi32.lib user32.lib userenv.lib ws2_32.l
 
 # Top-level directory in which Tcl's platform-independent files are
 # installed.
-TCL_PREFIX='G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library'
+TCL_PREFIX='g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library'
 
 # Top-level directory in which Tcl's platform-specific files (e.g.
 # executables) are installed.
-TCL_EXEC_PREFIX='G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\bin'
+TCL_EXEC_PREFIX='g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\bin'
 
 # Flags to pass to cc when compiling the components of a shared library:
 TCL_SHLIB_CFLAGS=''
@@ -115,11 +115,11 @@ TCL_BUILD_LIB_SPEC=''
 
 # String to pass to linker to pick up the Tcl library from its
 # installed directory.
-TCL_LIB_SPEC='G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\lib\tcl86t.lib'
+TCL_LIB_SPEC='g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\lib\tcl86t.lib'
 
 # String to pass to the compiler so that an extension can
 # find installed Tcl headers.
-TCL_INCLUDE_SPEC='-IG:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\include'
+TCL_INCLUDE_SPEC='-Ig:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\include'
 
 # Indicates whether a version numbers should be used in -l switches
 # ("ok" means it's safe to use switches like -ltcl7.5;  "nodots" means
@@ -168,13 +168,13 @@ TCL_BUILD_STUB_LIB_SPEC='-LC:\ci\tk_1654036608655\work\tcl8.6.12\win\Release_AMD
 
 # String to pass to linker to pick up the Tcl stub library from its
 # installed directory.
-TCL_STUB_LIB_SPEC='-LG:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\lib tclstub86.lib'
+TCL_STUB_LIB_SPEC='-Lg:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\lib tclstub86.lib'
 
 # Path to the Tcl stub library in the build directory.
 TCL_BUILD_STUB_LIB_PATH='C:\ci\tk_1654036608655\work\tcl8.6.12\win\Release_AMD64_VC1916\tclstub86.lib'
 
 # Path to the Tcl stub library in the install directory.
-TCL_STUB_LIB_PATH='G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\lib\tclstub86.lib'
+TCL_STUB_LIB_PATH='g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv\Library\lib\tclstub86.lib'
 
 # Flag, 1: we built Tcl with threads enabled, 0 we didn't
 TCL_THREADS=1

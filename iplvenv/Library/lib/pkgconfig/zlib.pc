@@ -1,8 +1,8 @@
-prefix=G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library
-exec_prefix=G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library
-libdir=G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library/lib
-sharedlibdir=G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library/lib
-includedir=G:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library/include
+prefix=g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library
+exec_prefix=g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library
+libdir=g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library/lib
+sharedlibdir=g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library/lib
+includedir=g:/DS Projects/End To End Projects/IPL_match_win_predictor/iplvenv/Library/include
 
 Name: zlib
 Description: zlib compression library

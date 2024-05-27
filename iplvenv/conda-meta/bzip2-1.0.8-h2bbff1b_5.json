@@ -116,7 +116,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "bzip2",
   "sha256": "f64d8770a8401a4db476fc2c18b5afc7c1cdd955cb7bc5ec0700c0d3a90d8e8f",
   "size": 80101,
   "subdir": "win-64",

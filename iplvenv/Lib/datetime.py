@@ -1002,13 +1002,9 @@ class date:
     def __repr__(self):
         """Convert to formal string, for repr().
 
-        >>> dt = datetime(2010, 1, 1)
-        >>> repr(dt)
-        'datetime.datetime(2010, 1, 1, 0, 0)'
-
-        >>> dt = datetime(2010, 1, 1, tzinfo=timezone.utc)
-        >>> repr(dt)
-        'datetime.datetime(2010, 1, 1, 0, 0, tzinfo=datetime.timezone.utc)'
+        >>> d = date(2010, 1, 1)
+        >>> repr(d)
+        'datetime.date(2010, 1, 1)'
         """
         return "%s.%s(%d, %d, %d)" % (self.__class__.__module__,
                                       self.__class__.__qualname__,
@@ -1030,7 +1026,11 @@ class date:
             self._day, self._year)
 
     def strftime(self, fmt):
-        "Format using strftime()."
+        """
+        Format using strftime().
+
+        Example: "%d/%m/%Y, %H:%M:%S"
+        """
         return _wrap_strftime(self, fmt, self.timetuple())
 
     def __format__(self, fmt):
@@ -1219,7 +1219,7 @@ date.resolution = timedelta(days=1)
 class tzinfo:
     """Abstract base class for time zone info classes.
 
-    Subclasses must override the name(), utcoffset() and dst() methods.
+    Subclasses must override the tzname(), utcoffset() and dst() methods.
     """
     __slots__ = ()
 
